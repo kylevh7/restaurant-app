@@ -108,7 +108,8 @@ nav h1 a {
 #map {
     height: 500px;
     width: 100%;
-    background-color: #ccc;
+    background-color: rgb(235, 234, 241)
+    ;
 }
 
 @media screen and (min-width:1650px) {
@@ -130,7 +131,7 @@ nav h1 a {
 .filter-options {
     width: 100%;
     height: 100%;
-    background-color: #3397DB;
+    background-color: #0c5c93;
     align-items: center;
     padding: 10px;
 }
@@ -158,7 +159,6 @@ nav h1 a {
 /* ====================== Restaurant Listing ====================== */
 
 #restaurants-list {
-    background-color: #f3f3f3;
     list-style: outside none none;
     margin: 0 auto;
     padding: 10px 15px 60px;
@@ -167,8 +167,7 @@ nav h1 a {
 }
 
 #restaurants-list li {
-    border: 10px solid #f3f3f3;
-    background-color: #fff;
+    border-bottom: 2px solid rgb(135, 145, 141);
     font-family: Arial, sans-serif;
     margin-right: auto;
     margin-left: auto;
@@ -219,33 +218,11 @@ nav h1 a {
 
 /* ====================== Restaurant Details ====================== */
 
-.inside header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-}
 
-.inside #map-container {
-    background: blue none repeat scroll 0 0;
-    height: 87%;
-    position: fixed;
-    right: 0;
-    top: 80px;
-    width: 50%;
-}
 
-.inside #map {
-    background-color: #ccc;
-    height: 100%;
-    width: 100%;
-}
 
-.inside #footer {
-    bottom: 0;
-    position: absolute;
-    width: 50%;
-}
+
+
 
 #restaurant-name {
     color: #f18200;
