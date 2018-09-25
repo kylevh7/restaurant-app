@@ -17,7 +17,7 @@
         <nav>
             <h1><a aria label="home" tabindex="1" href="/">Restaurant Reviews</a></h1>
         </nav>
-        <ul role="menubar" id="breadcrumb">
+        <ul role="navigation" id="breadcrumb">
             <li role="menuitem"><a href="/">Home</a></li>
         </ul>
     </header>
@@ -27,13 +27,13 @@
         <!-- Beginning map -->
         <div>
             <section id="map-container" >
-                <div role="application" id="map"></div>
+                <div aria-label="location" role="application" id="map"></div>
             </section>
         </div>
         <div >
             <section id="restaurant-container">
-                <h1 id="restaurant-name"></h1>
-                <img id="restaurant-img" alt="image of restaurant location">
+                <h2 id="restaurant-name"></h2>
+                <img id="restaurant-img">
                 <p id="restaurant-cuisine"></p>
                 <p id="restaurant-address"></p>
                 <table id="restaurant-hours"></table>
